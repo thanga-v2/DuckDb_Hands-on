@@ -1,0 +1,16 @@
+DuckDB offers the performance and the flexibility of SQL right within the python environment.
+
+it is speciifcally engineered for OLAP
+
+Data is distributed in chunks. while spark is distributed across multiple nodes to achieve scalability.
+
+DuckDB is columnar storage format while MYSQL and SQLITE are row based.
+
+ELT - In DuckDB, we can directly manipulate the data instead of loading it into database server (in traditioonal ELT, we need to load the data)
+
+DuckDB process data in vectors. operating with chunks of rows rather than processing one row at a time.
+
+DuckDB uses a technique called late materialization, where data is only fetched or processed when absolutely necessary. 
+
+DuckDB is in-process database, meaning it runs directly within the application, without needing of seperate server.
+
