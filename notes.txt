@@ -14,3 +14,9 @@ DuckDB uses a technique called late materialization, where data is only fetched 
 
 DuckDB is in-process database, meaning it runs directly within the application, without needing of seperate server.
 
+
+
+OLTP -> Captures real time operational data
+
+OLAP -> for analytics and business insights
+
